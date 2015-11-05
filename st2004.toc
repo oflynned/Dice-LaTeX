@@ -2,9 +2,10 @@
 \contentsline {section}{List of Figures}{1}
 \contentsline {section}{List of Tables}{1}
 \contentsline {section}{References}{1}
-\contentsline {section}{\numberline {1}q1i}{1}
+\contentsline {section}{\numberline {1}Q1i}{1}
 \contentsline {section}{\numberline {2}Q1ii: Probability Distributions}{2}
 \contentsline {subsection}{\numberline {2.1}Permutation}{2}
-\contentsline {subsection}{\numberline {2.2}graphs}{3}
-\contentsline {section}{\numberline {3}q1iii}{4}
-\contentsline {section}{\numberline {4}q2}{5}
+\contentsline {subsection}{\numberline {2.2}Graphs}{4}
+\contentsline {subsection}{\numberline {2.3}Multinomial Theorem}{4}
+\contentsline {section}{\numberline {3}Q1iii}{5}
+\contentsline {section}{\numberline {4}Q2}{6}
