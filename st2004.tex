@@ -103,9 +103,8 @@ For each given roll, there is independence between variables. Therefore the tota
 \sigma^2(S3)&=\sigma^2(X1)+\sigma^2(X2)+\sigma^2(X3)\\
 &=2.91+2.91+2.91=8.73\approx8.75
 \end{align*}
-
 \subsection{Covariance}
-Covariance in a dataset is a measure of how much two random variables change together within a given time. Covariance within the data sets may be also defined as
+Covariance in a dataset is a measure of how much two random variables change together within a given time. Covariance within the data sets may be defined as followed
 \begin{align*}
 \sigma(X,Y)&=E[(X-E(X))(Y-E(Y))]\\
 &=E[XY-XE(Y)-Y(EX)+E(X)E(Y)]\\
@@ -119,16 +118,18 @@ Thus calculating $\sigma(S3,M3)$ for the joint probabilities of (S3,M3) and (S4,
 \end{align*}
 
 \subsection{Long Run Expected Values and Variances}
-Following the Central Limit Theorem which implies that $X_1,X_2,...,X_n$ are all independent random variables, where each random variable within the set pertains to tending to the same expected value, $\mu$, and standard deviation, $\sigma^2$, within the distribution
-
+Following the Central Limit Theorem which implies that $X_1,X_2,...,X_n$ are all independent random variables, where each random variable within the set pertains to tending to the same expected value, $\mu$, and standard deviation, $\sigma^2$, within the distribution given that the population is sufficiently large with n values of dice summation.
+\\
+% include graphs demonstrating central limit theorem
+\\
 Ergo, the expected value of $E[S_k]$ is therefore shown to be $E[S_k]=K*E[S_1]$, while the expected long run variance $V[S_k]$ is shown to be $V[S_k]=K*V[S_k]$
 
 \subsection{Multinomial Theorem}
 The multinomial theorem is a \emph{generating function} by which a probability distribution of dice sums may be calculated and expressed. The series is defined by the power of the number, where the exponent itself is a polynomial with respect to the number rolled by the die for any positive integer m and non-negative integer n.
 $$(x_1+x_2+...+x_m)^n=\sum_{k_1+k_2+...+k_m=n}{}\frac{n!}{k_1!k_2!...k_m!}\prod_{1\leq t\leq m}^{}x_{t}^{k_t}$$
-In the case of $S_n$ where n dice have been rolled
+In the case of $S_n$ where n dice of 6 sides have been rolled
 $$G(S_n)=\left(\sum_{k=1}^{6}x^k\right)^n=(x^1+x^2+x^3+x^4+x^5+x^6)^n$$
-Such that for 6 sides per die
+Such that for multiple dice
 \begin{align*}
 G(S1)&=x^1+x^2+x^3+x^4+x^5+x^6\\
 G(S2)&=(x^1+x^2+x^3+x^4+x^5+x^6)^2\\
