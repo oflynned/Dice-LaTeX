@@ -66,7 +66,43 @@ Q1i
 \newgeometry{top=2cm,left=2cm,bottom=2cm,right=2cm}
 \section{Q1ii: Probability Distributions}
 \subsection{Probability Distribution}
-Three dice can be rolled in a variety of 216 ways (6*6*6) over a probability distribution shown above in fig x.x. The possible combinations for each die results in varied probabilities for each number, where a greater number of combinations results in a higher probabilistic outcome, and thus over the long run, results in a variance of probabilities for each dice combination. The probability of each number rolled tends from the value of the number of combinations that can be possibly formed for that combination, with respect to the total number of combinations possible for n dice.
+Three dice can be rolled in a variety of 216 ways (6*6*6) over a probability distribution shown below. The possible combinations for each die results in varied probabilities for each number, where a greater number of combinations results in a higher probabilistic outcome, and thus over the long run, results in a variance of probabilities for each dice combination. The probability of each number rolled tends from the value of the number of combinations that can be possibly formed for that combination, with respect to the total number of combinations possible for n dice.
+\begin{table}[h]
+\centering
+\begin{tabular}{llllllll}
+Sum & \multicolumn{5}{l}{Dice Combinations}  & Combinations & Probability \\
+3            & 1,1,1 &        &       &       &       & 1                  & 0.005       \\
+4            & 1,1,2 &        &       &       &       & 3                  & 0.014       \\
+5            & 1,2,2 & 1,1,3  &       &       &       & 6                  & 0.028       \\
+6            & 1,1,4 & 1,2,3  & 2,2,2 &       &       & 10                 & 0.046       \\
+7            & 1,1,5 & 1,2,4  & 1,3,3 & 2,2,3 &       & 15                 & 0.069       \\
+8            & 1,1,6 & 1,2,5  & 1,3,4 & 2,2,4 &       & 21                 & 0.097       \\
+9            & 1,3,5 & 1,4,4  & 1,2,6 & 2,2,5 & 3,3,3 & 25                 & 0.116       \\
+10           & 1,3,6 & 1,4,5  & 2,2,6 & 2,3,5 & 3,3,4 & 27                 & 0.125       \\
+11           & 1,4,6 & 1,5,5  & 2,3,6 & 2,4,5 & 3,4,4 & 27                 & 0.125       \\
+12           & 1,5,6 & 2,4,6, & 2,2,5 & 3,3,6 & 4,4,4 & 25                 & 0.116       \\
+13           & 1,6,6 & 2,5,6  & 3,5,5 & 3,4,6 &       & 21                 & 0.097       \\
+14           & 2,6,6 & 3,5,6  & 4,4,6 & 4,5,5 &       & 15                 & 0.069       \\
+15           & 3,6,6 & 4,5,6  & 5,5,5 &       &       & 10                 & 0.046       \\
+16           & 4,6,6 & 5,5,6  &       &       &       & 6                  & 0.028       \\
+17           & 5,6,6 &        &       &       &       & 3                  & 0.014       \\
+18           & 6,6,6 &        &       &       &       & 1                  & 0.005       \\
+             &       &        &       &       &       & 216                & 1          
+\end{tabular}
+\caption{Probability Distribution of Combinations}
+\end{table}
+\subsection{Multinomial Theorem}
+The multinomial theorem is a \emph{generating function} by which a probability distribution of dice sums may be calculated and expressed. The series is defined by the power of the number, where the exponent itself is a polynomial with respect to the number rolled by the die for any positive integer m and non-negative integer n.
+$$(x_1+x_2+...+x_m)^n=\sum_{k_1+k_2+...+k_m=n}{}\frac{n!}{k_1!k_2!...k_m!}\prod_{1\leq t\leq m}^{}x_{t}^{k_t}$$
+In the case of $S_n$ where n dice of 6 sides have been rolled
+$$G(S_n)=\left(\sum_{k=1}^{6}x^k\right)^n=(x^1+x^2+x^3+x^4+x^5+x^6)^n$$
+Such that for multiple dice
+\begin{align*}
+G(S_1)&=x^1+x^2+x^3+x^4+x^5+x^6\\
+G(S_2)&=(x^1+x^2+x^3+x^4+x^5+x^6)^2\\
+&=x^2+2x^3+3x^4+4x^5+5x^6+6x^7+5x^8+4x^9+3x^{10}+2x^{11}+x^{12}
+\end{align*}
+
 \subsection{Expected Value and Variance}
 Expected value is defined as the product of given value with respect to thte probabilistic outcome of that value, as a summation of all the possible values  within that set for a randomly distributed variable X:
 \begin{align*}
@@ -118,24 +154,11 @@ Thus calculating $\sigma(S3,M3)$ for the joint probabilities of (S3,M3) and (S4,
 \end{align*}
 
 \subsection{Long Run Expected Values and Variances}
-Following the Central Limit Theorem which implies that $X_1,X_2,...,X_n$ are all independent random variables, where each random variable within the set pertains to tending to the same expected value, $\mu$, and standard deviation, $\sigma^2$, within the distribution given that the population is sufficiently large with n values of dice summation.
+Following the \emph{Central Limit Theorem} which implies that $X_1,X_2,...,X_n$ are all independent random variables, where each random variable within the set pertains to tending to the same expected value, $\mu$, and standard deviation, $\sigma^2$, within the distribution given that the population is sufficiently large with n values of dice summation.
 \\
 % include graphs demonstrating central limit theorem
 \\
 Ergo, the expected value of $E[S_k]$ is therefore shown to be $E[S_k]=K*E[S_1]$, while the expected long run variance $V[S_k]$ is shown to be $V[S_k]=K*V[S_k]$
-
-\subsection{Multinomial Theorem}
-The multinomial theorem is a \emph{generating function} by which a probability distribution of dice sums may be calculated and expressed. The series is defined by the power of the number, where the exponent itself is a polynomial with respect to the number rolled by the die for any positive integer m and non-negative integer n.
-$$(x_1+x_2+...+x_m)^n=\sum_{k_1+k_2+...+k_m=n}{}\frac{n!}{k_1!k_2!...k_m!}\prod_{1\leq t\leq m}^{}x_{t}^{k_t}$$
-In the case of $S_n$ where n dice of 6 sides have been rolled
-$$G(S_n)=\left(\sum_{k=1}^{6}x^k\right)^n=(x^1+x^2+x^3+x^4+x^5+x^6)^n$$
-Such that for multiple dice
-\begin{align*}
-G(S1)&=x^1+x^2+x^3+x^4+x^5+x^6\\
-G(S2)&=(x^1+x^2+x^3+x^4+x^5+x^6)^2\\
-&=x^2+2x^3+3x^4+4x^5+5x^6+6x^7+5x^8+4x^9+3x^{10}+2x^{11}+x^{12}
-\end{align*}
-
 \clearpage
 
 \section{Q1iii}

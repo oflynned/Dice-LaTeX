@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  6 NOV 2015 17:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  7 NOV 2015 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,12 +348,12 @@ dice.png>] (./st2004.toc)
  [2
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
+] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
-[3] [4] [5
+[4] [5
 
 ] [6
 
@@ -361,11 +361,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--126
 Here is how much of TeX's memory you used:
  3243 strings out of 494985
  45219 string characters out of 6180356
- 130362 words of memory out of 5000000
+ 131362 words of memory out of 5000000
  6401 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,10n,23p,599b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,23p,588b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -378,7 +378,7 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb>
-Output written on st2004.pdf (8 pages, 729334 bytes).
+Output written on st2004.pdf (8 pages, 730768 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
