@@ -112,9 +112,9 @@ Expected value is defined as the product of given value with respect to thte pro
 E[X_n]=x_np_n \quad \textrm{where} \quad E[X]=\sum_{i=1}^{n}x_np_n
 \end{align*}
 Given the probability distribution, the expected value is calculated as such:
-$$E[X]=1*\frac{1}{6}+1*\frac{2}{6}+1*\frac{3}{6}+1*\frac{4}{6}+1*\frac{5}{6}+1*\frac{6}{6}=3.5$$
+$$E[X_1]=1*\frac{1}{6}+1*\frac{2}{6}+1*\frac{3}{6}+1*\frac{4}{6}+1*\frac{5}{6}+1*\frac{6}{6}=3.5$$
 In the case of having three dice, this method can be extended to encapsulate a wider range of values over two additional dice:
-$$E[X]=3*\frac{1}{216}+4*\frac{3}{216}+5*\frac{6}{216}+6*\frac{10}{216}+7*\frac{15}{216}+8*\frac{21}{216}+9*\frac{25}{216}+10*\frac{27}{216}+$$
+$$E[X_3]=3*\frac{1}{216}+4*\frac{3}{216}+5*\frac{6}{216}+6*\frac{10}{216}+7*\frac{15}{216}+8*\frac{21}{216}+9*\frac{25}{216}+10*\frac{27}{216}+$$
 $$11*\frac{27}{216}+12*\frac{25}{216}+13*\frac{21}{216}+14*\frac{15}{216}+15*\frac{10}{216}+16*\frac{6}{216}+17*\frac{3}{216}+18*\frac{1}{216}$$\\
 The rolling of dice in such a way is denoted as an independent event, as the dice rolls in the future are not dependent on previous rolls and do not affect the outcome of values, where essentially the expected outcome of the event is given by:
 $$E[X+Y+Z]=E[X]+E[Y]+E[Z]$$
@@ -128,18 +128,18 @@ Thus confirming the supposition by applying probabilistic arguments to the real-
 &=E[X^2]-(E[X])^2
 \end{align*}
 Therefore the variance for the set can be determined from the above equations results in the following using the square of the value rolled from 1-6 a total of 1 time:
-$$E[X^2]=1*\frac{1}{6}+4*\frac{1}{6}+9*\frac{1}{6}+16*\frac{1}{6}+25*\frac{1}{6}+36*\frac{1}{6}=15.16$$
-$$\sigma^2(X)=15.16-(3.5)^2=2.91$$
+$$E[X_1^2]=1*\frac{1}{6}+4*\frac{1}{6}+9*\frac{1}{6}+16*\frac{1}{6}+25*\frac{1}{6}+36*\frac{1}{6}=15.16$$
+$$\sigma^2(X_1)=15.16-(3.5)^2=2.91$$
 Given the joint probabilities via S3, S4, M3 and N4; the expected value of M3 is the sum-product of the marginal probability of M3. The same is true for the expected value of M4 with respect to M4 itself. Thus,
-$$E[M3]=0.005+0.065+0.264+0.630+1.481+2.529=4.972$$
+$$E[M_3]=0.005+0.065+0.264+0.630+1.481+2.529=4.972$$
 Similar to one die, calculating the sum of three dice results in a similar manner:
 \begin{align*}
-E[X^2]&=9*\frac{1}{216}+16*\frac{3}{216}+49*\frac{6}{216}+64*\frac{10}{216}+81*\frac{15}{216}+100*\frac{21}{216}\\&+121*\frac{27}{216}+144*\frac{27}{216}+169*\frac{21}{216}+196*\frac{15}{216}+225*\frac{10}{216}\\&+256*\frac{6}{216}+289*\frac{3}{216}+324*\frac{1}{216} = 119\\
-\sigma^2(X)&=119-(10.5^2)=8.75
+E[X_3^2]&=9*\frac{1}{216}+16*\frac{3}{216}+49*\frac{6}{216}+64*\frac{10}{216}+81*\frac{15}{216}+100*\frac{21}{216}\\&+121*\frac{27}{216}+144*\frac{27}{216}+169*\frac{21}{216}+196*\frac{15}{216}+225*\frac{10}{216}\\&+256*\frac{6}{216}+289*\frac{3}{216}+324*\frac{1}{216} = 119\\
+\sigma^2(X_3)&=119-(10.5^2)=8.75
 \end{align*}
 For each given roll, there is independence between variables. Therefore the total variance is the sum of the individual variances within the set:
 \begin{align*}
-\sigma^2(S3)&=\sigma^2(X1)+\sigma^2(X2)+\sigma^2(X3)\\
+\sigma^2(S_3)&=\sigma^2(X_1)+\sigma^2(X_2)+\sigma^2(X_3)\\
 &=2.91+2.91+2.91=8.73\approx8.75
 \end{align*}
 \begin{align*}
@@ -155,10 +155,10 @@ Covariance in a dataset is a measure of how much two random variables change tog
 &=E(XY)-E(X)E(Y)-E(Y)E(X)+E(X)E(Y)\\
 &=E(XY)-E(X)E(Y)
 \end{align*}
-Thus calculating $\sigma(S3,M3)$ for the joint probabilities of (S3,M3) and (S4,M4) respectively gives
+Thus calculating $\sigma(S_3,M_3)$ for the joint probabilities of $(S_3,M_3)$ and $(S_4,M_4)$ respectively gives
 \begin{align*}
-\sigma(S3,M3)&=54.764-(4.972*(3*3.5))=2.558\\
-\sigma(S4,M4)&=74.589-(5.181*(4*3.5))=2.055
+\sigma(S_3,M_3)&=54.764-(4.972*(3*3.5))=2.558\\
+\sigma(S_4,_M4)&=74.589-(5.181*(4*3.5))=2.055
 \end{align*}
 
 \subsection{Long Run Expected Values and Variances}
