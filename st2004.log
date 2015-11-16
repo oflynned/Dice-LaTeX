@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  16 NOV 2015 11:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  16 NOV 2015 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,14 +300,6 @@ dice.png>] (./st2004.toc)
 \tf@toc=\write3
 \openout3 = `st2004.toc'.
 
- (./st2004.lof)
-\tf@lof=\write4
-\openout4 = `st2004.lof'.
-
- (./st2004.lot)
-\tf@lot=\write5
-\openout5 = `st2004.lot'.
-
  [1
 
 ] [1
@@ -348,91 +340,90 @@ dice.png>] (./st2004.toc)
  [2
 
 
-] [3]
-<PD_S3.png, id=32, 362.10281pt x 216.05719pt>
+] [3] <PD_S3.png, id=32, 362.10281pt x 216.05719pt>
 File: PD_S3.png Graphic file (type png)
- <use PD_S3.png>
-Package pdftex.def Info: PD_S3.png used on input line 149.
-(pdftex.def)             Requested size: 270.3012pt x 161.28421pt.
 
-<PD_S4.png, id=33, 362.10281pt x 217.5628pt>
+<use PD_S3.png>
+Package pdftex.def Info: PD_S3.png used on input line 145.
+(pdftex.def)             Requested size: 270.3012pt x 161.28421pt.
+ <PD_S4.png, id=33, 362.10281pt x 217.5628pt>
 File: PD_S4.png Graphic file (type png)
  <use PD_S4.png>
-Package pdftex.def Info: PD_S4.png used on input line 149.
+Package pdftex.def Info: PD_S4.png used on input line 145.
 (pdftex.def)             Requested size: 270.3012pt x 162.40816pt.
 File: PD_S3.png Graphic file (type png)
- <use PD_S3.png>
-Package pdftex.def Info: PD_S3.png used on input line 149.
+
+<use PD_S3.png>
+Package pdftex.def Info: PD_S3.png used on input line 145.
 (pdftex.def)             Requested size: 270.3012pt x 161.28421pt.
 File: PD_S4.png Graphic file (type png)
-
-<use PD_S4.png>
-Package pdftex.def Info: PD_S4.png used on input line 149.
+ <use PD_S4.png>
+Package pdftex.def Info: PD_S4.png used on input line 145.
 (pdftex.def)             Requested size: 270.3012pt x 162.40816pt.
  <s1.png, id=34, 334.24875pt x 244.66406pt>
 File: s1.png Graphic file (type png)
- <use s1.png>
-Package pdftex.def Info: s1.png used on input line 170.
-(pdftex.def)             Requested size: 270.3012pt x 197.87067pt.
 
-<s2.png, id=35, 334.24875pt x 232.61906pt>
+<use s1.png>
+Package pdftex.def Info: s1.png used on input line 166.
+(pdftex.def)             Requested size: 270.3012pt x 197.87067pt.
+ <s2.png, id=35, 334.24875pt x 232.61906pt>
 File: s2.png Graphic file (type png)
  <use s2.png>
-Package pdftex.def Info: s2.png used on input line 170.
+Package pdftex.def Info: s2.png used on input line 166.
 (pdftex.def)             Requested size: 270.3012pt x 188.12933pt.
 File: s1.png Graphic file (type png)
- <use s1.png>
-Package pdftex.def Info: s1.png used on input line 170.
+
+<use s1.png>
+Package pdftex.def Info: s1.png used on input line 166.
 (pdftex.def)             Requested size: 270.3012pt x 197.87067pt.
 File: s2.png Graphic file (type png)
-
-<use s2.png>
-Package pdftex.def Info: s2.png used on input line 170.
+ <use s2.png>
+Package pdftex.def Info: s2.png used on input line 166.
 (pdftex.def)             Requested size: 270.3012pt x 188.12933pt.
  <s3.png, id=37, 334.24875pt x 231.86626pt>
 File: s3.png Graphic file (type png)
- <use s3.png>
-Package pdftex.def Info: s3.png used on input line 174.
-(pdftex.def)             Requested size: 270.3012pt x 187.52051pt.
 
-<s4.png, id=38, 334.24875pt x 220.57407pt>
+<use s3.png>
+Package pdftex.def Info: s3.png used on input line 170.
+(pdftex.def)             Requested size: 270.3012pt x 187.52051pt.
+ <s4.png, id=38, 334.24875pt x 220.57407pt>
 File: s4.png Graphic file (type png)
  <use s4.png>
-Package pdftex.def Info: s4.png used on input line 174.
+Package pdftex.def Info: s4.png used on input line 170.
 (pdftex.def)             Requested size: 270.3012pt x 178.38802pt.
 File: s3.png Graphic file (type png)
- <use s3.png>
-Package pdftex.def Info: s3.png used on input line 174.
+
+<use s3.png>
+Package pdftex.def Info: s3.png used on input line 170.
 (pdftex.def)             Requested size: 270.3012pt x 187.52051pt.
 File: s4.png Graphic file (type png)
-
-<use s4.png>
-Package pdftex.def Info: s4.png used on input line 174.
+ <use s4.png>
+Package pdftex.def Info: s4.png used on input line 170.
 (pdftex.def)             Requested size: 270.3012pt x 178.38802pt.
- [4 <./PD_S3.png> <./PD_S4.png> <./s1.png> <./s2.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+ [4 <./PD_S3.png> <./PD_S4.png> <./s1.png> <./s2.png>] (/usr/share/texlive/texm
+f-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 178--199
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
 
  []
 
 
-Overfull \hbox (7.83325pt too wide) in paragraph at lines 178--199
+Overfull \hbox (7.83325pt too wide) in paragraph at lines 174--195
 []$   $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--199
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
 
  []
 
 [5 <./s3.png> <./s4.png>] [6] [7] (./st2004.aux) ) 
 Here is how much of TeX's memory you used:
- 3531 strings out of 494985
- 48499 string characters out of 6180356
- 132362 words of memory out of 5000000
- 6680 multiletter control sequences out of 15000+600000
+ 3528 strings out of 494985
+ 48471 string characters out of 6180356
+ 132374 words of memory out of 5000000
+ 6683 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,11n,23p,772b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -448,7 +439,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on st2004.pdf (9 pages, 770567 bytes).
+Output written on st2004.pdf (9 pages, 774350 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream

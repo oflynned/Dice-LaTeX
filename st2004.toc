@@ -1,6 +1,4 @@
 \select@language {english}
-\contentsline {section}{List of Figures}{1}
-\contentsline {section}{List of Tables}{1}
 \contentsline {section}{References}{1}
 \contentsline {section}{\numberline {1}Q1i: Simulation of Probability Distributions}{1}
 \contentsline {subsection}{\numberline {1.1}Univariate System Model}{1}
