@@ -107,7 +107,7 @@ G(S_2)&=(x^1+x^2+x^3+x^4+x^5+x^6)^2\\
 \end{align*}
 
 \subsection{Expected Value and Variance}
-Expected value is defined as the product of given value with respect to thte probabilistic outcome of that value, as a summation of all the possible values  within that set for a randomly distributed variable X:
+Expected value is defined as the product of given value with respect to the probabilistic outcome of that value, as a summation of all the possible values  within that set for a randomly distributed variable X:
 \begin{align*}
 E[X_n]=x_np_n \quad \textrm{where} \quad E[X]=\sum_{i=1}^{n}x_np_n
 \end{align*}
@@ -158,7 +158,7 @@ Covariance in a dataset is a measure of how much two random variables change tog
 Thus calculating $\sigma(S_3,M_3)$ for the joint probabilities of $(S_3,M_3)$ and $(S_4,M_4)$ respectively gives
 \begin{align*}
 \sigma(S_3,M_3)&=54.764-(4.972*(3*3.5))=2.558\\
-\sigma(S_4,_M4)&=74.589-(5.181*(4*3.5))=2.055
+\sigma(S_4,M_4)&=74.589-(5.181*(4*3.5))=2.055
 \end{align*}
 
 \subsection{Long Run Expected Values and Variances}
@@ -173,14 +173,58 @@ Following the \emph{Central Limit Theorem} which implies that $X_1,X_2,...,X_n$ 
 \includegraphics[width=0.5\textwidth]{s4.png}
 \end{align*}
 The above charts are $S_1$, $S_2$, $S_4$, and $S_8$ which demonstrate the effects of tending to the normal distribution curve as n samples approaches infinity.  Ergo, the expected value of $E[S_k]$ is therefore shown to be $E[S_k]=K*E[S_1]$, while the expected long run variance $V[S_k]$ is shown to be $V[S_k]=K*V[S_k]$
-\clearpage
-
 \section{Q1iii: Law of Large Numbers}
-\subsection{Comparison}
-\clearpage
+\subsection{Converging}
+There are various versions for The Law of Large Numbers that basically all mean the same thing. As the sample size grows indefinitely, the mean value of the data will converge to the “expected value” for the data.
+The Weak Law states that as n approaches infinity, for all $\epsilon > 0$, the probability of $|\bar{X}\bar{n} - \mu|> \epsilon$ is 0, whilst the \emph{Strong Law} states that for some large number N; $n>N$, the probability of $\bar{X}\bar{n} = \mu$ is 1. The key difference between them is that the Weak Law leaves open the possibility of an infinite number of tests before convergence but the Strong Law states that convergence is achieved for all large enough $n$. Borel also investigated this phenomenon and produced his own \emph{Law of Large Numbers}:\\
+For an experiment repeated independently under identical conditions, the ratio of occurrence of any specified event approximately equals the probability of the event's occurrence on any trial if it is repeated a large enough number of times.
+\\
+From looking at section 2.3 we see that $E[S_1] = 3.5$ and it is given that $E[S_k]=k[E[S_1]]$ (see section 2.5). This means that:
+\\\\
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+$$E[S_3]=3[E[S_1]]=10.5$$
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} 
+$$E[S_4]=4[E[S_1]]=14$$
+\end{flushleft}
+\end{minipage}
+\\\\
+From looking at the graphs in section 1.2 it is clear that the Average Value of S3, after initially fluctuating from the expected value, begins to converge to 10.5. We see a similar occurrence regarding the Average value of $S_4$ converging to 14. Those graphs clearly illustrate the Law of Large Numbers.
+\\
+What is evident is the importance of running many simulations as even after 150 trials the average value of $S_3$ is fluctuating back and forth around 10, as opposed to near the expected value of 10.5. A similar problem can be observed with regards to $S_4$. Clearly the initial skew is due to a high value within the first few trials. As you can then see, this is eventually cancelled out with many trials and the overall mean value will converge upon the expected value. The key word is that it “eventually”, not “immediately”, converges to the expected value. It is this misinterpretation that leads to flawed gambling strategies, such as \emph{Martingale strategy} for the roulette wheel which will be analysed in section 4.
 
-\section{Q2: Investigation}
-\subsection{Q2}
-\clearpage
+\section{Q2: Martingale-Roulette Investigation}
+\subsection{Martingale Strategies}
+Roulette is a casino game of French origin that has become a staple game found in the majority of casinos worldwide. Roulette’s popularity is due to the fact that it involves no player skill whatsoever, making it the go-to game of casino “newbies”. However this comes with a price, the casino holds a great edge in every spin of the wheel. For this project I will focus on the European version of Roulette which holds a lesser house edge than that of American Roulette, due to the presence of only 1 zero in European Roulette compared to the 2 zeros of American Roulette.
+\subsection{Payoff}
+%table of odds of betting%
+As you can see this is a very foreboding prospect for gamblers as they are expected to lose money on every bet they place. Naturally gamblers will want to try and offset this house edge and the most common way of attempting to do this is through the use of betting systems to maximise their winnings or minimise their losses. As convincing as many of these betting systems appear to be, none of them can change the edge of the game being played.
 
+One of the most well-known betting strategies is the “Martingale” betting system. Martingale originated in $18^{th}$ century France where roulette was very popular at the time. Martingale involves betting on even money bets usually in roulette (Red or Black, odd or even) or craps (pass/come bets). After every loss the player doubles their bet until they win, in which case they return to their base unit bet. The idea behind Martingale is that no matter how many times the player loses, a win will net them a profit equal to their base bet. However there are two key problems facing a player that utilizes the Martingale Strategy.
+
+\begin{enumerate}
+\item Martingale can only be completely effective if the player has infinite money as a long run of losses will leave the player betting astronomical amounts of money.
+\item Casinos often have limits on the stakes that can be placed at any table. Then when the player runs on a streak of losses, they get to a point when the casino will not let them increase their bet any further, breaking the system.
+\end{enumerate}
+
+A simulation was carried out using the RANDBETWEEN() function to mimic the spin of the roulette wheel 1,000 times. This would equate to roughly 9 hours playing time for a gambler alone at a table.
+
+To simplify the simulation, the bet chosen was odd or even as Excel has a useful modulo function, however we would see the same results had any other even money bet been used. A base unit bet of \$5 was used as this is often times the minimum bet accepted at a roulette table. A running count of net profit was calculated along with a tally of the streaks of wins and losses and the cumulative difference between wins and losses.
+
+The downfall of Martingale can be seen clearly from the results of the simulation. While the strategy exhibits a returns profile that is deceptively low risk with steady returns, there are sometimes catastrophic sequences that will cause the gambler to run into ruin. At the lowest point on the Net Profit graph, the player was down \$9,535 requiring a bet of \$10,240 to return the player into profit. This is impossible to do in reality as the casinos will only allow a maximum bet of around \$2,000 on outside bets.
+
+This is good example of a \emph{Taleb Distribution} or \emph{Taleb Payoff}. The gambler usually wins a small net reward causing the illusion of a sound strategy. However the gambler’s expected value still remains less than zero due to the inherent house edge in the game and the small probability that he will suffer catastrophic loss. The size of the bet increases exponentially and this, combined with the fact that streaks of consecutive losses are more common than expected, can leave the gambler broke.
+
+Given I walk into a casino with \$1,000 and proceed to employ Martingale starting at \$5, it would only take a streak of 7 losses in a row to cause me to be unable to bet enough on the $8^{th}$ bet to continue with the strategy.
+$$\sum^{7}_{n=0}5(2^n)=\$1,275$$
+The probability of 7 losses in a row when playing European Roulette is as follows:
+$$\left(\frac{19}{37}\right)^7=0.00942$$
+Although this is appears quite low, no player expects to walk into a casino and only bet one 1 spin of the roulette wheel. The more bets you place, the more likely the player is to go bankrupt however during the game the player does not see this. Instead the player sees steady returns of his unit bet multiple times per minute. This causes the player to continue betting and eventually run into ruin. Intuitively, we can look at the results of each bet on a game of roulette as a sequence of independent and identically distributed random variables. As expected value is a linear operator, we have:
+$$E(b_1+b_2+...+b_n)=E(b_1)+E(b_2)+...+E(b_n)$$
+\subsection{Conclusion}
+As the bets are independent in roulette, the expected value of any bet does not rely on any previous bet. As we have calculated at the start of the question, roulette holds an inherent negative expected value on every bet. Therefore our expected value will always be negative as the sum of negative numbers is always negative. From this we can conclude that there is no way to create a profitable betting strategy for roulette due to the independence of its outcomes. The best way to win at Roulette is to avoid playing in the first place.
 \end{document}
