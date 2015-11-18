@@ -197,7 +197,15 @@ What is evident is the importance of running many simulations as even after 150 
 \subsection{Martingale Strategies}
 Roulette is a casino game of French origin that has become a staple game found in the majority of casinos worldwide. Roulette’s popularity is due to the fact that it involves no player skill whatsoever, making it the go-to game of casino “newbies”. However this comes with a price, the casino holds a great edge in every spin of the wheel. For this project I will focus on the European version of Roulette which holds a lesser house edge than that of American Roulette, due to the presence of only 1 zero in European Roulette compared to the 2 zeros of American Roulette.
 \subsection{Payoff}
-%table of odds of betting%
+\begin{table}[h]
+\centering
+\begin{tabular}{cccc}
+\begin{tabular}[c]{@{}c@{}}European Roulette\\ House Edge\end{tabular} & \begin{tabular}[c]{@{}c@{}}House Edge Calculation\\ $P(loss)*(stake$ $lost)+P(win)*return$ \end{tabular} & \begin{tabular}[c]{@{}c@{}}Percentage\\ House Edge\end{tabular} & \begin{tabular}[c]{@{}c@{}}Expected Value\\ on \$10 Bet\end{tabular} \\
+Single \# Betting                                                      & $\frac{36}{37}*(-1)+\frac{1}{37}*(35)$                                            & -2.70\%                                                         & -\$0.27                                                              \\
+Outside Betting                                                        & $\frac{19}{37}*(-1)+\frac{18}{37}*(1)$                                  & -2.70\%                                                         & -\$0.27                                                             
+\end{tabular}
+\caption{Martingale Strategy Applied to Roulette}
+\end{table}
 As you can see this is a very foreboding prospect for gamblers as they are expected to lose money on every bet they place. Naturally gamblers will want to try and offset this house edge and the most common way of attempting to do this is through the use of betting systems to maximise their winnings or minimise their losses. As convincing as many of these betting systems appear to be, none of them can change the edge of the game being played.
 
 One of the most well-known betting strategies is the “Martingale” betting system. Martingale originated in $18^{th}$ century France where roulette was very popular at the time. Martingale involves betting on even money bets usually in roulette (Red or Black, odd or even) or craps (pass/come bets). After every loss the player doubles their bet until they win, in which case they return to their base unit bet. The idea behind Martingale is that no matter how many times the player loses, a win will net them a profit equal to their base bet. However there are two key problems facing a player that utilizes the Martingale Strategy.
