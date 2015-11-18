@@ -11,9 +11,10 @@
 \contentsline {subsection}{\numberline {2.3}Expected Value and Variance}{3}
 \contentsline {subsection}{\numberline {2.4}Covariance}{4}
 \contentsline {subsection}{\numberline {2.5}Long Run Expected Values and Variances}{4}
-\contentsline {section}{\numberline {3}Q1iii: Law of Large Numbers}{5}
-\contentsline {subsection}{\numberline {3.1}Converging}{5}
+\contentsline {section}{\numberline {3}Q1iii: Law of Large Numbers}{4}
+\contentsline {subsection}{\numberline {3.1}Converging}{4}
 \contentsline {section}{\numberline {4}Q2: Martingale-Roulette Investigation}{6}
 \contentsline {subsection}{\numberline {4.1}Martingale Strategies}{6}
 \contentsline {subsection}{\numberline {4.2}Payoff}{6}
-\contentsline {subsection}{\numberline {4.3}Conclusion}{7}
+\contentsline {subsection}{\numberline {4.3}Simulation}{6}
+\contentsline {subsection}{\numberline {4.4}Conclusion}{8}

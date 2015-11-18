@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  18 NOV 2015 12:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  18 NOV 2015 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,89 +360,105 @@ File: PD_S4.png Graphic file (type png)
  <use PD_S4.png>
 Package pdftex.def Info: PD_S4.png used on input line 145.
 (pdftex.def)             Requested size: 270.3012pt x 162.40816pt.
- <s1.png, id=34, 334.24875pt x 244.66406pt>
-File: s1.png Graphic file (type png)
 
-<use s1.png>
-Package pdftex.def Info: s1.png used on input line 166.
-(pdftex.def)             Requested size: 270.3012pt x 197.87067pt.
- <s2.png, id=35, 334.24875pt x 232.61906pt>
-File: s2.png Graphic file (type png)
- <use s2.png>
-Package pdftex.def Info: s2.png used on input line 166.
-(pdftex.def)             Requested size: 270.3012pt x 188.12933pt.
-File: s1.png Graphic file (type png)
-
-<use s1.png>
-Package pdftex.def Info: s1.png used on input line 166.
-(pdftex.def)             Requested size: 270.3012pt x 197.87067pt.
-File: s2.png Graphic file (type png)
- <use s2.png>
-Package pdftex.def Info: s2.png used on input line 166.
-(pdftex.def)             Requested size: 270.3012pt x 188.12933pt.
- <s3.png, id=37, 334.24875pt x 231.86626pt>
-File: s3.png Graphic file (type png)
-
-<use s3.png>
-Package pdftex.def Info: s3.png used on input line 170.
-(pdftex.def)             Requested size: 270.3012pt x 187.52051pt.
- <s4.png, id=38, 334.24875pt x 220.57407pt>
-File: s4.png Graphic file (type png)
- <use s4.png>
-Package pdftex.def Info: s4.png used on input line 170.
-(pdftex.def)             Requested size: 270.3012pt x 178.38802pt.
-File: s3.png Graphic file (type png)
-
-<use s3.png>
-Package pdftex.def Info: s3.png used on input line 170.
-(pdftex.def)             Requested size: 270.3012pt x 187.52051pt.
-File: s4.png Graphic file (type png)
- <use s4.png>
-Package pdftex.def Info: s4.png used on input line 170.
-(pdftex.def)             Requested size: 270.3012pt x 178.38802pt.
- [4 <./PD_S3.png> <./PD_S4.png> <./s1.png> <./s2.png>] (/usr/share/texlive/texm
-f-dist/tex/latex/ucs/data/uni-32.def
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 174--195
+Underfull \hbox (badness 10000) in paragraph at lines 168--187
 
  []
 
 
-Overfull \hbox (7.83325pt too wide) in paragraph at lines 174--195
+Overfull \hbox (7.83325pt too wide) in paragraph at lines 168--187
 []$   $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--195
+Underfull \hbox (badness 10000) in paragraph at lines 168--187
 
  []
 
-[5 <./s3.png> <./s4.png>] [6] [7] (./st2004.aux) ) 
+[4 <./PD_S3.png> <./PD_S4.png>]
+<average_s3.png, id=37, 273.27094pt x 186.6975pt>
+File: average_s3.png Graphic file (type png)
+ <use average_s3.png>
+Package pdftex.def Info: average_s3.png used on input line 191.
+(pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
+
+<average_s4.png, id=38, 273.27094pt x 186.6975pt>
+File: average_s4.png Graphic file (type png)
+ <use average_s4.png>
+Package pdftex.def Info: average_s4.png used on input line 191.
+(pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
+File: average_s3.png Graphic file (type png)
+
+<use average_s3.png>
+Package pdftex.def Info: average_s3.png used on input line 191.
+(pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
+File: average_s4.png Graphic file (type png)
+ <use average_s4.png>
+Package pdftex.def Info: average_s4.png used on input line 191.
+(pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
+
+<average_s3_n_trials.png, id=39, 372.64218pt x 194.97844pt>
+File: average_s3_n_trials.png Graphic file (type png)
+
+<use average_s3_n_trials.png>
+Package pdftex.def Info: average_s3_n_trials.png used on input line 196.
+(pdftex.def)             Requested size: 405.45178pt x 212.15335pt.
+File: average_s3_n_trials.png Graphic file (type png)
+ <use average_s3_n_trials.png>
+Package pdftex.def Info: average_s3_n_trials.png used on input line 196.
+(pdftex.def)             Requested size: 405.45178pt x 212.15335pt.
+ [5 <./average_s3.png (PNG copy)> <./average_s4.png (PNG copy)> <./average_s3_n
+_trials.png (PNG copy)>] <diff_wins_losses.png, id=44, 453.19313pt x 162.6075pt
+>
+File: diff_wins_losses.png Graphic file (type png)
+
+<use diff_wins_losses.png>
+Package pdftex.def Info: diff_wins_losses.png used on input line 227.
+(pdftex.def)             Requested size: 405.45178pt x 145.47697pt.
+File: diff_wins_losses.png Graphic file (type png)
+ <use diff_wins_losses.png>
+Package pdftex.def Info: diff_wins_losses.png used on input line 227.
+(pdftex.def)             Requested size: 405.45178pt x 145.47697pt.
+ [6]
+<net_profit.png, id=48, 453.19313pt x 149.8097pt>
+File: net_profit.png Graphic file (type png)
+ <use net_profit.png>
+Package pdftex.def Info: net_profit.png used on input line 232.
+(pdftex.def)             Requested size: 405.45178pt x 134.02739pt.
+File: net_profit.png Graphic file (type png)
+
+<use net_profit.png>
+Package pdftex.def Info: net_profit.png used on input line 232.
+(pdftex.def)             Requested size: 405.45178pt x 134.02739pt.
+ [7 <./diff_wins_losses.png (PNG copy)> <./net_profit.png (PNG copy)>] [8] (./s
+t2004.aux) ) 
 Here is how much of TeX's memory you used:
- 3528 strings out of 494985
- 48471 string characters out of 6180356
+ 3533 strings out of 494985
+ 48795 string characters out of 6180356
  132374 words of memory out of 5000000
- 6683 multiletter control sequences out of 15000+600000
+ 6687 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,14n,23p,772b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on st2004.pdf (9 pages, 778348 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti12.pfb>
+Output written on st2004.pdf (10 pages, 845978 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

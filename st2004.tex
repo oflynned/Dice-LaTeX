@@ -27,8 +27,8 @@
 \emph{Authors:}
 \\Alexandru \textsc{Sulea} 12315152
 \\Edmond \textsc{O'Flynn} 12304742
-\\Jonathan \textsc{Lester} 12345678
-\\Ronan \textsc{Campbell} 12345678
+\\Jonathan \textsc{Lester} 14310385
+\\Ronan \textsc{Campbell} 14324880
 \end{flushleft}
 \end{minipage}
 ~
@@ -159,15 +159,9 @@ Thus calculating $\sigma(S_3,M_3)$ for the joint probabilities of $(S_3,M_3)$ an
 
 \subsection{Long Run Expected Values and Variances}
 Following the \emph{Central Limit Theorem} which implies that $X_1,X_2,...,X_n$ are all independent random variables, where each random variable within the set pertains to tending to the same expected value, $\mu$, and standard deviation, $\sigma^2$, within the distribution given that the population is sufficiently large with n values of dice summation.
-\begin{align*}
-\centering
-\includegraphics[width=0.5\textwidth]{s1.png}
-\includegraphics[width=0.5\textwidth]{s2.png}
-\end{align*}
-\begin{align*}
-\includegraphics[width=0.5\textwidth]{s3.png}
-\includegraphics[width=0.5\textwidth]{s4.png}
-\end{align*}
+
+%ALEX'S GRAPHS HERE FOR DISTRIBUTIONS
+
 The above charts are $S_1$, $S_2$, $S_4$, and $S_8$ which demonstrate the effects of tending to the normal distribution curve as n samples approaches infinity.  Ergo, the expected value of $E[S_k]$ is therefore shown to be $E[S_k]=K*E[S_1]$, while the expected long run variance $V[S_k]$ is shown to be $V[S_k]=K*V[S_k]$
 \section{Q1iii: Law of Large Numbers}
 \subsection{Converging}
@@ -190,8 +184,16 @@ $$E[S_4]=4[E[S_1]]=14$$
 \end{minipage}
 \\\\
 From looking at the graphs in section 1.2 it is clear that the Average Value of S3, after initially fluctuating from the expected value, begins to converge to 10.5. We see a similar occurrence regarding the Average value of $S_4$ converging to 14. Those graphs clearly illustrate the Law of Large Numbers.
-\\
+\begin{align*}
+\centering
+\includegraphics[width=0.5\textwidth]{average_s3.png}
+\includegraphics[width=0.5\textwidth]{average_s4.png}
+\end{align*}
 What is evident is the importance of running many simulations as even after 150 trials the average value of $S_3$ is fluctuating back and forth around 10, as opposed to near the expected value of 10.5. A similar problem can be observed with regards to $S_4$. Clearly the initial skew is due to a high value within the first few trials. As you can then see, this is eventually cancelled out with many trials and the overall mean value will converge upon the expected value. The key word is that it “eventually”, not “immediately”, converges to the expected value. It is this misinterpretation that leads to flawed gambling strategies, such as \emph{Martingale strategy} for the roulette wheel which will be analysed in section 4.
+\begin{align*}
+\centering
+\includegraphics[width=0.75\textwidth]{average_s3_n_trials.png}
+\end{align*}
 
 \section{Q2: Martingale-Roulette Investigation}
 \subsection{Martingale Strategies}
@@ -215,12 +217,19 @@ One of the most well-known betting strategies is the “Martingale” betting sy
 \item Casinos often have limits on the stakes that can be placed at any table. Then when the player runs on a streak of losses, they get to a point when the casino will not let them increase their bet any further, breaking the system.
 \end{enumerate}
 
+\subsection{Simulation}
 A simulation was carried out using the RANDBETWEEN() function to mimic the spin of the roulette wheel 1,000 times. This would equate to roughly 9 hours playing time for a gambler alone at a table.
 
 To simplify the simulation, the bet chosen was odd or even as Excel has a useful modulo function, however we would see the same results had any other even money bet been used. A base unit bet of \$5 was used as this is often times the minimum bet accepted at a roulette table. A running count of net profit was calculated along with a tally of the streaks of wins and losses and the cumulative difference between wins and losses.
-
+\begin{align*}
+\centering
+\includegraphics[width=0.75\textwidth]{diff_wins_losses.png}
+\end{align*}
 The downfall of Martingale can be seen clearly from the results of the simulation. While the strategy exhibits a returns profile that is deceptively low risk with steady returns, there are sometimes catastrophic sequences that will cause the gambler to run into ruin. At the lowest point on the Net Profit graph, the player was down \$9,535 requiring a bet of \$10,240 to return the player into profit. This is impossible to do in reality as the casinos will only allow a maximum bet of around \$2,000 on outside bets.
-
+\begin{align*}
+\centering
+\includegraphics[width=0.75\textwidth]{net_profit.png}
+\end{align*}
 This is good example of a \emph{Taleb Distribution} or \emph{Taleb Payoff}. The gambler usually wins a small net reward causing the illusion of a sound strategy. However the gambler’s expected value still remains less than zero due to the inherent house edge in the game and the small probability that he will suffer catastrophic loss. The size of the bet increases exponentially and this, combined with the fact that streaks of consecutive losses are more common than expected, can leave the gambler broke.
 
 Given I walk into a casino with \$1,000 and proceed to employ Martingale starting at \$5, it would only take a streak of 7 losses in a row to cause me to be unable to bet enough on the $8^{th}$ bet to continue with the strategy.
