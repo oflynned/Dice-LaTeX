@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  18 NOV 2015 15:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.24)  19 NOV 2015 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,34 +173,53 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen121
 \Gm@layoutvoffset=\dimen122
 \Gm@dimlist=\toks25
-) (./st2004.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (./st2004.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
 \openout1 = `st2004.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
-\scratchdimen=\dimen123
+\scratchdimen=\dimen124
 \scratchbox=\box28
 \nofMPsegments=\count106
 \nofMParguments=\count107
 \everyMPshowfont=\toks26
 \MPscratchCnt=\count108
-\MPscratchDim=\dimen124
+\MPscratchDim=\dimen125
 \MPnumerator=\count109
 \makeMPintoPDFobject=\count110
 \everyMPtoPDFconversion=\toks27
@@ -285,13 +304,13 @@ e
 <logo.png, id=1, 787.94376pt x 963.6pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 17.
+Package pdftex.def Info: logo.png used on input line 19.
 (pdftex.def)             Requested size: 83.64944pt x 102.29108pt.
 
 <dice.png, id=2, 72.27pt x 54.9252pt>
 File: dice.png Graphic file (type png)
  <use dice.png>
-Package pdftex.def Info: dice.png used on input line 48.
+Package pdftex.def Info: dice.png used on input line 50.
 (pdftex.def)             Requested size: 125.47737pt x 95.3679pt.
  [1
 
@@ -301,8 +320,6 @@ dice.png>] (./st2004.toc)
 \openout3 = `st2004.toc'.
 
  [1
-
-] [1
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -337,128 +354,275 @@ dice.png>] (./st2004.toc)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [2
+ <m3_m4.png, id=15, 455.45157pt x 255.95625pt>
+File: m3_m4.png Graphic file (type png)
+ <use m3_m4.png>
+Package pdftex.def Info: m3_m4.png used on input line 70.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+
+<s3_s4.png, id=16, 455.45157pt x 255.95625pt>
+File: s3_s4.png Graphic file (type png)
+ <use s3_s4.png>
+Package pdftex.def Info: s3_s4.png used on input line 70.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+File: m3_m4.png Graphic file (type png)
+ <use m3_m4.png>
+Package pdftex.def Info: m3_m4.png used on input line 70.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+File: s3_s4.png Graphic file (type png)
+
+<use s3_s4.png>
+Package pdftex.def Info: s3_s4.png used on input line 70.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+ <Long_Run_Average.png, id=17, 455.45157pt x 255.95625pt>
+File: Long_Run_Average.png Graphic file (type png)
+
+<use Long_Run_Average.png>
+Package pdftex.def Info: Long_Run_Average.png used on input line 76.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+
+<Long_Run_Variance.png, id=18, 455.45157pt x 255.95625pt>
+File: Long_Run_Variance.png Graphic file (type png)
+
+<use Long_Run_Variance.png>
+Package pdftex.def Info: Long_Run_Variance.png used on input line 76.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+File: Long_Run_Average.png Graphic file (type png)
+ <use Long_Run_Average.png>
+Package pdftex.def Info: Long_Run_Average.png used on input line 76.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+File: Long_Run_Variance.png Graphic file (type png)
+
+<use Long_Run_Variance.png>
+Package pdftex.def Info: Long_Run_Variance.png used on input line 76.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+
+<S3,M3Covariance.png, id=19, 455.45157pt x 255.95625pt>
+File: S3,M3Covariance.png Graphic file (type png)
+
+<use S3,M3Covariance.png>
+Package pdftex.def Info: S3,M3Covariance.png used on input line 82.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+
+<S4,M4Covariance.png, id=20, 455.45157pt x 255.95625pt>
+File: S4,M4Covariance.png Graphic file (type png)
+
+<use S4,M4Covariance.png>
+Package pdftex.def Info: S4,M4Covariance.png used on input line 82.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+File: S3,M3Covariance.png Graphic file (type png)
+ <use S3,M3Covariance.png>
+Package pdftex.def Info: S3,M3Covariance.png used on input line 82.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+File: S4,M4Covariance.png Graphic file (type png)
+ <use S4,M4Covariance.png>
+Package pdftex.def Info: S4,M4Covariance.png used on input line 82.
+(pdftex.def)             Requested size: 270.3012pt x 151.90724pt.
+
+<m3_s3=10.png, id=21, 481.8pt x 216.81pt>
+File: m3_s3=10.png Graphic file (type png)
+ <use m3_s3=10.png>
+Package pdftex.def Info: m3_s3=10.png used on input line 88.
+(pdftex.def)             Requested size: 270.3012pt x 121.63773pt.
+
+<s3_m3=4.png, id=22, 418.56375pt x 221.32687pt>
+File: s3_m3=4.png Graphic file (type png)
+ <use s3_m3=4.png>
+Package pdftex.def Info: s3_m3=4.png used on input line 88.
+(pdftex.def)             Requested size: 270.3012pt x 142.92865pt.
+File: m3_s3=10.png Graphic file (type png)
+
+<use m3_s3=10.png>
+Package pdftex.def Info: m3_s3=10.png used on input line 88.
+(pdftex.def)             Requested size: 270.3012pt x 121.63773pt.
+File: s3_m3=4.png Graphic file (type png)
+ <use s3_m3=4.png>
+Package pdftex.def Info: s3_m3=4.png used on input line 88.
+(pdftex.def)             Requested size: 270.3012pt x 142.92865pt.
 
 
-] [3] <PD_S3.png, id=32, 362.10281pt x 216.05719pt>
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 111.
+
+
+Overfull \hbox (44.0609pt too wide) in paragraph at lines 115--126
+ [][] 
+ []
+
+[1
+
+
+ <./m3_m4.png (PNG copy)> <./s3_s4.png (PNG copy)> <./Long_Run_Average.png (PNG
+ copy)> <./Long_Run_Variance.png (PNG copy)> <./S3,M3Covariance.png (PNG copy)>
+ <./S4,M4Covariance.png (PNG copy)> <./m3_s3=10.png (PNG copy)> <./s3_m3=4.png 
+(PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 159.
+
+[4]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=759.6886pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [5
+
+
+
+] [6] <PD_S3.png, id=50, 362.10281pt x 216.05719pt>
 File: PD_S3.png Graphic file (type png)
-
-<use PD_S3.png>
-Package pdftex.def Info: PD_S3.png used on input line 145.
+ <use PD_S3.png>
+Package pdftex.def Info: PD_S3.png used on input line 276.
 (pdftex.def)             Requested size: 270.3012pt x 161.28421pt.
- <PD_S4.png, id=33, 362.10281pt x 217.5628pt>
+
+<PD_S4.png, id=51, 362.10281pt x 217.5628pt>
 File: PD_S4.png Graphic file (type png)
  <use PD_S4.png>
-Package pdftex.def Info: PD_S4.png used on input line 145.
+Package pdftex.def Info: PD_S4.png used on input line 276.
 (pdftex.def)             Requested size: 270.3012pt x 162.40816pt.
 File: PD_S3.png Graphic file (type png)
-
-<use PD_S3.png>
-Package pdftex.def Info: PD_S3.png used on input line 145.
+ <use PD_S3.png>
+Package pdftex.def Info: PD_S3.png used on input line 276.
 (pdftex.def)             Requested size: 270.3012pt x 161.28421pt.
 File: PD_S4.png Graphic file (type png)
- <use PD_S4.png>
-Package pdftex.def Info: PD_S4.png used on input line 145.
-(pdftex.def)             Requested size: 270.3012pt x 162.40816pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+<use PD_S4.png>
+Package pdftex.def Info: PD_S4.png used on input line 276.
+(pdftex.def)             Requested size: 270.3012pt x 162.40816pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 168--187
+Underfull \hbox (badness 10000) in paragraph at lines 299--318
 
  []
 
 
-Overfull \hbox (7.83325pt too wide) in paragraph at lines 168--187
+Overfull \hbox (7.83325pt too wide) in paragraph at lines 299--318
 []$   $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--187
+Underfull \hbox (badness 10000) in paragraph at lines 299--318
 
  []
 
-[4 <./PD_S3.png> <./PD_S4.png>]
-<average_s3.png, id=37, 273.27094pt x 186.6975pt>
+[7 <./PD_S3.png> <./PD_S4.png>]
+<average_s3.png, id=55, 273.27094pt x 186.6975pt>
 File: average_s3.png Graphic file (type png)
  <use average_s3.png>
-Package pdftex.def Info: average_s3.png used on input line 191.
+Package pdftex.def Info: average_s3.png used on input line 322.
 (pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
 
-<average_s4.png, id=38, 273.27094pt x 186.6975pt>
+<average_s4.png, id=56, 273.27094pt x 186.6975pt>
 File: average_s4.png Graphic file (type png)
  <use average_s4.png>
-Package pdftex.def Info: average_s4.png used on input line 191.
+Package pdftex.def Info: average_s4.png used on input line 322.
 (pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
 File: average_s3.png Graphic file (type png)
 
 <use average_s3.png>
-Package pdftex.def Info: average_s3.png used on input line 191.
+Package pdftex.def Info: average_s3.png used on input line 322.
 (pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
 File: average_s4.png Graphic file (type png)
  <use average_s4.png>
-Package pdftex.def Info: average_s4.png used on input line 191.
+Package pdftex.def Info: average_s4.png used on input line 322.
 (pdftex.def)             Requested size: 270.3012pt x 184.6801pt.
 
-<average_s3_n_trials.png, id=39, 372.64218pt x 194.97844pt>
+<average_s3_n_trials.png, id=57, 372.64218pt x 194.97844pt>
 File: average_s3_n_trials.png Graphic file (type png)
 
 <use average_s3_n_trials.png>
-Package pdftex.def Info: average_s3_n_trials.png used on input line 196.
+Package pdftex.def Info: average_s3_n_trials.png used on input line 327.
 (pdftex.def)             Requested size: 405.45178pt x 212.15335pt.
 File: average_s3_n_trials.png Graphic file (type png)
  <use average_s3_n_trials.png>
-Package pdftex.def Info: average_s3_n_trials.png used on input line 196.
+Package pdftex.def Info: average_s3_n_trials.png used on input line 327.
 (pdftex.def)             Requested size: 405.45178pt x 212.15335pt.
- [5 <./average_s3.png (PNG copy)> <./average_s4.png (PNG copy)> <./average_s3_n
-_trials.png (PNG copy)>] <diff_wins_losses.png, id=44, 453.19313pt x 162.6075pt
+ [8 <./average_s3.png (PNG copy)> <./average_s4.png (PNG copy)> <./average_s3_n
+_trials.png (PNG copy)>] <diff_wins_losses.png, id=61, 453.19313pt x 162.6075pt
 >
 File: diff_wins_losses.png Graphic file (type png)
 
 <use diff_wins_losses.png>
-Package pdftex.def Info: diff_wins_losses.png used on input line 227.
+Package pdftex.def Info: diff_wins_losses.png used on input line 358.
 (pdftex.def)             Requested size: 405.45178pt x 145.47697pt.
 File: diff_wins_losses.png Graphic file (type png)
  <use diff_wins_losses.png>
-Package pdftex.def Info: diff_wins_losses.png used on input line 227.
+Package pdftex.def Info: diff_wins_losses.png used on input line 358.
 (pdftex.def)             Requested size: 405.45178pt x 145.47697pt.
- [6]
-<net_profit.png, id=48, 453.19313pt x 149.8097pt>
+ [9]
+<net_profit.png, id=65, 453.19313pt x 149.8097pt>
 File: net_profit.png Graphic file (type png)
  <use net_profit.png>
-Package pdftex.def Info: net_profit.png used on input line 232.
+Package pdftex.def Info: net_profit.png used on input line 363.
 (pdftex.def)             Requested size: 405.45178pt x 134.02739pt.
 File: net_profit.png Graphic file (type png)
 
 <use net_profit.png>
-Package pdftex.def Info: net_profit.png used on input line 232.
+Package pdftex.def Info: net_profit.png used on input line 363.
 (pdftex.def)             Requested size: 405.45178pt x 134.02739pt.
- [7 <./diff_wins_losses.png (PNG copy)> <./net_profit.png (PNG copy)>] [8] (./s
-t2004.aux) ) 
+ [10 <./diff_wins_losses.png (PNG copy)> <./net_profit.png (PNG copy)>] [11] (.
+/st2004.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3533 strings out of 494985
- 48795 string characters out of 6180356
- 132374 words of memory out of 5000000
- 6687 multiletter control sequences out of 15000+600000
+ 3602 strings out of 494985
+ 50128 string characters out of 6180356
+ 152777 words of memory out of 5000000
+ 6741 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,14n,23p,772b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti12.pfb>
-Output written on st2004.pdf (10 pages, 845978 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b>
+Output written on st2004.pdf (13 pages, 1054646 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
