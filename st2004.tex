@@ -83,16 +83,15 @@ Dr. Brett \textsc{Houlding}
 
 \begin{align*}
 \centering
-\includegraphics[width=0.5\textwidth]{m3_s3=10.png}
-\includegraphics[width=0.5\textwidth]{s3_m3=4.png}
+\includegraphics[width=0.5\textwidth]{m3_s3=10(4).png}
+\includegraphics[width=0.5\textwidth]{s3_m3=4(5).png}
 \end{align*}
 
 
-\begin{table}[H]
+\begin{table}[h]
 \centering
-\caption{My caption}
 \label{my-label}
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|r|r|r|}
 \hline
 No.	&	&	\multicolumn{4}{l|}{Dice} &  & \multicolumn{3}{l|}{Maxima} &  & \multicolumn{4}{l|}{Cumulative Sums} \\ \hline
 No.	&	& X1   & X2 & X3 & X4 &  & M2     & M3 & M4 &  & S1              & S2 & S3 & S4 \\ \hline
@@ -103,14 +102,11 @@ No.	&	& X1   & X2 & X3 & X4 &  & M2     & M3 & M4 &  & S1              & S2 & S3
 5...&  & 6    & 5  & 2  & 1  &  & 6      & 6  & 6  &  & 6               & 11 & 13 & 14 \\ \hline
 1000& &5		& 2	& 5	& 6	& 	&5		&5	&6	&	&5					&7	&12	&18\\ \hline
 \end{tabular}
+\caption{Part 1.}
 \end{table}
 
-
-\subsection{Condition Distribution of S3}
-
-\begin{table}[]
+\begin{table}[h]
 \centering
-\caption{My caption}
 \label{my-label}
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|lll}
 \cline{2-17}
@@ -123,42 +119,41 @@ No.	&	& X1   & X2 & X3 & X4 &  & M2     & M3 & M4 &  & S1              & S2 & S3
  & 5...    &  & 5       & 5.8     & 10       & 13.4    &  & 1.069     & 0.59     & 5.876     & 0.002     &  & 1.03   & 0.77   & 2.42   & 0.04   &  &  &  \\ \cline{2-17}
  & 1000 &  & 4.966   & 5.233   & 10.577   & 14.045  &  & 0.001     & 0.59     & 2.028     & 15.682    &  & 0.03   & 0.77   & 1.42   & 3.96   &  &  &  \\ \cline{2-17}
 \end{tabular}
+\caption{Part 2.}
 \end{table}
 
-\begin{table}[H]
+\begin{table}[h]
 \centering
-\caption{My caption}
 \label{my-label}
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|lllllllllll}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \cline{1-9}
-No.  &  & \multicolumn{4}{l|}{Long Run Variance Averages} &  & \multicolumn{2}{l|}{Long Run Covar Averages} &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-No.  &  & Var M3     & Var M4     & Var S3    & Var S4    &  & S3,M3                 & S4,M4                &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-1    &  & 0.97       & 0.77       & 2.58      & 0.04      &  & 15.976008             & 31.234               &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-2    &  & 0.5        & 0.5        & 3.08      & 2.54      &  & 16.738568             & 27.209               &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-3    &  & 0.657      & 0.59       & 2.913     & 1.707     &  & 16.5099335            & 28.624893            &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-4    &  & 0.75       & 0.635      & 3.04      & 1.77      &  & 15.885888             & 28.202595            &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-5... &  & 0.806      & 0.662      & 2.916     & 1.424     &  & 15.9328               & 28.82756             &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
-1000 &  & 0.878      & 0.799      & 2.367     & 2.735     &  & 16.779196             & 25.0575325           &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-9}
+No.  &  & \multicolumn{4}{l|}{Long Run Variance Averages} &  & \multicolumn{2}{l|}{Long Run Covar Averages} \\ \cline{1-9}
+No.  &  & Var M3     & Var M4     & Var S3    & Var S4    &  & S3,M3                 & S4,M4                 \\ \cline{1-9}
+1    &  & 0.97       & 0.77       & 2.58      & 0.04      &  & 15.976             & 31.234               \\ \cline{1-9}
+2    &  & 0.5        & 0.5        & 3.08      & 2.54      &  & 16.739             & 27.209               \\ \cline{1-9}
+3    &  & 0.657      & 0.59       & 2.913     & 1.707     &  & 16.510            & 28.625            \\ \cline{1-9}
+4    &  & 0.75       & 0.635      & 3.04      & 1.77      &  & 15.886             & 28.203             \\ \cline{1-9}
+5... &  & 0.806      & 0.662      & 2.916     & 1.424     &  & 15.933               & 28.828              \\ \cline{1-9}
+1000 &  & 0.878      & 0.799      & 2.367     & 2.735     &  & 16.779             & 25.058            \\ \cline{1-9}
 \end{tabular}
+\caption{Part 3.}
 \end{table}
 
 
 \begin{table}[h]
 \centering
-\caption{My caption}
 \label{my-label}
-\begin{tabular}{llllllllllllllllllll}
+\begin{tabular}{cccccc}
 \cline{1-4}
-\multicolumn{4}{|l|}{Long Run Overall Averages}                                                                     &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-4}
-\multicolumn{1}{|l|}{M3}    & \multicolumn{1}{l|}{M4}    & \multicolumn{1}{l|}{S3}     & \multicolumn{1}{l|}{S4}    &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-4}
-\multicolumn{1}{|l|}{4.966} & \multicolumn{1}{l|}{5.232} & \multicolumn{1}{l|}{10.576} & \multicolumn{1}{l|}{14.04} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \cline{1-4}
+\multicolumn{4}{|l|}{Long Run Overall Averages}                                                                      \\ \cline{1-4}
+\multicolumn{1}{|l|}{M3}    & \multicolumn{1}{l|}{M4}    & \multicolumn{1}{l|}{S3}     & \multicolumn{1}{l|}{S4}   \\ \cline{1-4}
+\multicolumn{1}{|l|}{4.966} & \multicolumn{1}{l|}{5.232} & \multicolumn{1}{l|}{10.576} & \multicolumn{1}{l|}{14.04} \\ \cline{1-4}
 \end{tabular}
+\caption{Part 4.}
 \end{table}
 
-\begin{landscape}
-\begin{table}[]
+\begin{table}[h]
 \centering
-\caption{My caption}
 \label{my-label}
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l|llllllllll}
 \cline{2-10}
@@ -189,9 +184,25 @@ No.  &  & Var M3     & Var M4     & Var S3    & Var S4    &  & S3,M3            
                    &         & 23      &         &        &  &           & 1         &           &          &  &  &  &  &  &  &  &  &  &  \\ \cline{2-10}
                    &         & 24      &         &        &  &           & 0         &           &          &  &  &  &  &  &  &  &  &  &  \\ \cline{2-10}
 \end{tabular}
+\caption{Part 5.}
 \end{table}
-\end{landscape}
-\pagebreak
+
+
+There are various versions for The Law of Large Numbers that basically all mean the same thing. As the sample size grows indefinitely, the mean value of the data will converge to the “expected value” for the data.
+
+The Weak Law states that as n approaches infinity, $\varepsilon>0$ for the probability of $|Xn - µ|> E$ is 0 whilst the Strong Law states that for some large number N; $n>N$ for the probability of $Xn = µ$ is 1. The key difference between them is that the Weak Law leaves open the possibility of an infinite number of tests before convergence but the Strong Law states that convergence is achieved for all large enough n. The Strong Law implies the Weak Law due to a strong convergence guaranteeing a weak convergence but there are situations where there is a weak convergence and not a strong convergence so mathematicians have not yet been able to unify both Laws.
+
+A proof for the weak law involves using Chebyshev's inequality(which basically states that only 1/k2 of a distributions values can be outside k standard deviations from the mean).
+
+Instead of a point estimate, an interval estimate called a confidence interval can be found. For n large the confidence interval for the unknown expected value u = E(X) is given by 𝑋(𝑛)±Z(S(n)/ √n)).The confidence interval gives the upper and lower confidence bounds for the estimate. 
+
+The correlation coefficient of two variables is defined as the covariance of the two variables divided by the product of their standard deviations. It measures the strength and direction of the relationship between two variables.
+Taking this into account we were able to invert the equation and find the covariance of the two variables using the known values of the variance and correlation.
+
+$$𝑝(𝑥,𝑦)=𝐶𝑜𝑣(𝑋,𝑌)\sigma𝑋\sigma𝑌$$ $$𝑝(𝑥,𝑦)=𝐸[(𝑋−\mu𝑥)(𝑌−\mu𝑦)]\sigma𝑋\sigma𝑌$$
+
+$$cov(X,Y)=\Sigma \frac{(xi-\overline{x})((yi-\overline{y})}{N}$$
+
 
 \newgeometry{top=1cm,left=1cm,bottom=2cm,right=1cm}
 \section{Q1ii: Probability Distributions}
@@ -292,6 +303,11 @@ Thus calculating $\sigma(S_3,M_3)$ for the joint probabilities of $(S_3,M_3)$ an
 Following the \emph{Central Limit Theorem} which implies that $X_1,X_2,...,X_n$ are all independent random variables, where each random variable within the set pertains to tending to the same expected value, $\mu$, and standard deviation, $\sigma^2$, within the distribution given that the population is sufficiently large with n values of dice summation.
 
 %ALEX'S GRAPHS HERE FOR DISTRIBUTIONS
+\begin{align*}
+\centering
+\includegraphics[height=2in]{s1_s2.png}
+\includegraphics[height=2in]{s3_s4.png}
+\end{align*}
 
 The above charts are $S_1$, $S_2$, $S_4$, and $S_8$ which demonstrate the effects of tending to the normal distribution curve as n samples approaches infinity.  Ergo, the expected value of $E[S_k]$ is therefore shown to be $E[S_k]=K*E[S_1]$, while the expected long run variance $V[S_k]$ is shown to be $V[S_k]=K*V[S_k]$
 \section{Q1iii: Law of Large Numbers}
@@ -317,14 +333,15 @@ $$E[S_4]=4[E[S_1]]=14$$
 From looking at the graphs in section 1.2 it is clear that the Average Value of S3, after initially fluctuating from the expected value, begins to converge to 10.5. We see a similar occurrence regarding the Average value of $S_4$ converging to 14. Those graphs clearly illustrate the Law of Large Numbers.
 \begin{align*}
 \centering
-\includegraphics[width=0.5\textwidth]{average_s3.png}
-\includegraphics[width=0.5\textwidth]{average_s4.png}
+\includegraphics[height=2in]{average_s3.png}
+\includegraphics[height=2in]{average_s4.png}
 \end{align*}
 What is evident is the importance of running many simulations as even after 150 trials the average value of $S_3$ is fluctuating back and forth around 10, as opposed to near the expected value of 10.5. A similar problem can be observed with regards to $S_4$. Clearly the initial skew is due to a high value within the first few trials. As you can then see, this is eventually cancelled out with many trials and the overall mean value will converge upon the expected value. The key word is that it “eventually”, not “immediately”, converges to the expected value. It is this misinterpretation that leads to flawed gambling strategies, such as \emph{Martingale strategy} for the roulette wheel which will be analysed in section 4.
 \begin{align*}
 \centering
-\includegraphics[width=0.75\textwidth]{average_s3_n_trials.png}
+\includegraphics[height=2in]{average_s3_n_trials.png}
 \end{align*}
+
 
 \section{Q2: Martingale-Roulette Investigation}
 \subsection{Martingale Strategies}
